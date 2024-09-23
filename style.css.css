@@ -1,0 +1,574 @@
+/* min width mane hocce je ame sorbocco koto tuko kom porjonto responsive korte cai ar max width hocce je ame sorbocco koto tuko besi porjonto responsive korte cai min width komai ar max width barai */
+ /* @media screen and (max-width: 505px) and (min-width: 400px) {
+     body {
+       background-color: rgb(204, 41, 41);
+    
+     }
+   }
+
+   @media screen and (max-width: 800px) and (min-width: 700px) {
+     body {
+       background-color: lightgreen;
+    
+     }
+   }
+
+   @media screen and (min-width: 900px) {
+     body {
+       background-color: rgb(255, 11, 11);
+    
+     }
+   }
+ body{
+    background-color: rgb(24, 195, 201);
+
+} */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+ *{
+  padding: 0;
+  margin: 0;
+ }
+ body{
+  font-family: "mulish";
+  scroll-behavior: smooth;
+  text-align: center;
+
+ }
+ /* .logo{
+  width: 100%;
+ } */
+ @media screen and (min-width: 900px) {
+  body {
+    background-color: white;
+    .image_part img{
+      width: 180px;
+      object-fit: cover;
+      border: 1px solid;
+    }
+    .twopart{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    .writting_part{
+      margin-top: -15%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+
+    }
+    .main_part{
+      margin: 5px 5px 5px 5px ;
+      text-align: center;
+      font-size: 20px;
+    }
+    .discover{
+      text-align: center;
+      font-size: 20px;
+    }
+    .image_part img{
+      border: 1px solid #f0f0f0;
+      width: 160px;
+      height: 40px;
+      padding: 10px 10px 10px 10px;
+      object-fit: cover;
+    }
+    .home_section .jeep_section {
+    
+      background-color: orange;
+  min-width: 450px;
+  height: 300px;
+  border-radius: 20px;
+
+    }
+    .jeep_section img {
+      text-align: center;
+      width: 850px;
+   margin-left: -10%; 
+  margin-top: 10px;
+  transition: 0.5s;
+    }
+
+
+
+
+
+
+
+
+
+  }
+
+}
+ @media (max-width: 768px) {
+  .home_section .jeep_section {
+    margin-top: -50%;
+    background-color: orange;
+min-width: 300px;
+height: 300px;
+
+border-radius: 20px;
+  }
+  .jeep_section img {
+    text-align: center;
+    width: 380px;
+margin-left: -10%;
+margin-top: 50px;
+  }
+  nav{
+    width: 100%;
+  }
+.twopart{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header{
+  width: 100%;
+}
+.home_section{
+  margin-top: 40%;
+}
+.logo{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.writting_part{
+  margin-top: 10px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 12px;
+}
+.main_part{
+  margin: 5px 5px 5px 5px ;
+  text-align: center;
+  font-size: 20px;
+}
+.discover{
+  text-align: center;
+  font-size: 20px;
+}
+.image_part img{
+  border: 1px solid #f0f0f0;
+  width: 160px;
+  height: 40px;
+  padding: 10px 10px 10px 10px;
+  object-fit: cover;
+}
+.image_part img:hover{
+  background-color: #e0f2f1;
+  border: 1px solid #e0f2f1;
+}
+.section_rent{
+  margin-top: 50px;
+  padding: 5px ;
+}
+.rent_p{
+  text-align: center;
+  font-size: 20px;
+}
+.rent_h2{
+  text-align: center;
+  font-size: 22px;
+  margin-top: 20px;
+  font-weight: 800;
+}
+
+
+
+
+}
+
+.logo{
+  background-color: #e36414;
+  padding: 6px 6px 6px 6px;
+  
+}
+.logo a{
+  text-decoration: none;
+  margin-left: 5px;
+  color: white;
+  font-size: 22px;
+}
+
+a{
+  text-decoration: none;
+}
+.location{
+  text-align: center;
+  margin-top: 20px;
+}
+.fa-location-dot{
+border: 5px solid rgb(116, 40, 40);
+padding: 12px 12px;
+font-size: 30px;
+border-radius: 7px;
+color: rgb(148, 94, 94);
+}
+.fa-location-dot:hover{
+  background-color: orange;
+  color: black;
+  border: 5px solid orange;
+}
+.fa-calendar-check{
+  border: 5px solid rgb(116, 40, 40);
+  padding: 12px 12px;
+  font-size: 30px;
+  border-radius: 7px;
+  color: rgb(148, 94, 94);
+}
+.fa-calendar-check:hover{
+  background-color: orange;
+  color: black;
+  border: 5px solid orange;
+}
+.fa-bookmark{
+  border: 5px solid rgb(116, 40, 40);
+  padding: 12px 12px;
+  font-size: 30px;
+  border-radius: 7px;
+  color: rgb(148, 94, 94);
+}
+.fa-bookmark:hover{
+  background-color: orange;
+  color: black;
+  border: 5px solid orange;
+}
+.fa-wallet{
+  border: 5px solid rgb(116, 40, 40);
+  padding: 12px 12px;
+  font-size: 30px;
+  border-radius: 7px;
+  color: rgb(148, 94, 94);
+}
+.fa-wallet:hover{
+  background-color: orange;
+  color: black;
+  border: 5px solid orange;
+}
+.fa-tag{
+  border: 5px solid rgb(116, 40, 40);
+  padding: 12px 12px;
+  font-size: 30px;
+  border-radius: 7px;
+  color: rgb(148, 94, 94);
+}
+.fa-tag:hover{
+  background-color: orange;
+  color: black;
+  border: 5px solid orange;
+}
+.fa-headphones{
+  border: 5px solid rgb(116, 40, 40);
+  padding: 12px 12px;
+  font-size: 30px;
+  border-radius: 7px;
+  color: rgb(148, 94, 94);
+}
+.fa-headphones:hover{
+  background-color: orange;
+  color: black;
+  border: 5px solid orange;
+}
+.fa-award{
+  border: 5px solid rgb(116, 40, 40);
+  padding: 12px 12px;
+  font-size: 30px;
+  border-radius: 7px;
+  color: rgb(148, 94, 94);
+}
+.fa-award:hover{
+  background-color: orange;
+  color: black;
+  border: 5px solid orange;
+}
+.fa-bangladeshi-taka-sign{
+  border: 5px solid rgb(116, 40, 40);
+  padding: 12px 12px;
+  font-size: 30px;
+  border-radius: 7px;
+  color: rgb(148, 94, 94);
+}
+.fa-bangladeshi-taka-sign:hover{
+  background-color: orange;
+  color: black;
+  border: 5px solid orange;
+}
+.fa-car{
+  border: 5px solid rgb(116, 40, 40);
+  padding: 12px 12px;
+  font-size: 30px;
+  border-radius: 7px;
+  color: rgb(148, 94, 94);
+}
+.fa-car:hover{
+  background-color: orange;
+  color: black;
+  border: 5px solid orange;
+}
+.fa-headset{
+  border: 5px solid rgb(116, 40, 40);
+  padding: 12px 12px;
+  font-size: 30px;
+  border-radius: 7px;
+  color: rgb(148, 94, 94);
+}
+.fa-headset:hover{
+  background-color: orange;
+  color: black;
+   border: 5px solid orange; 
+}
+.section_ride{
+  margin-top: 33%;
+}
+.six{
+  text-align: center;
+  font-size: 20px;
+}
+.customer{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
+}
+.section_ride_img img{
+  width: 370px;
+}
+.rental_app{
+  height: 450px;
+  width: 350px;
+  background-color: #fc8023;
+  margin: 180px auto;
+  border-radius: 15px;
+}
+.nav_links{
+  width: 50%;
+  margin-left: 25%;
+  background-color: #e36414;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ font-size: 20px;
+ padding: 10px;
+border-radius: 4px;
+ transition: 0.5s;
+ transform: translateY(-120%); 
+ z-index: -1;
+}
+.rental_text{
+  /* text-align: center; */
+  font-weight: 800;
+  font-size: 35px;
+ padding-top: 25%;
+ color: white;
+ margin-left: 12px;
+}
+.nav_links.open{
+  transform: translateY(0);
+}
+.service_img img{
+  width: 380px;
+  object-fit: cover;
+}
+.nav_links a{
+  color: #f8f9fa;
+}
+.rental_p{
+  margin-top: 40px;
+  margin-left: 12px;
+  color: white;
+  font-size: 18px;
+}
+.nav_links a:hover{
+  text-decoration: underline;
+  color: black;
+}
+.section_service{
+  margin-top: 37%;
+}
+.chose{
+  font-size: 30px;
+}
+li{
+  list-style: none;
+  margin-bottom: 10px;
+}
+.serv{
+  margin-left: 12px;
+  margin-top: 20px;
+font-size: 20px;
+}
+header{
+  width: 100%;
+  position: relative;
+}
+.rental_img img{
+width: 150px;
+object-fit: cover;
+border-radius: 4px;
+}
+.rental_img{
+  margin-top: 10%;
+  margin-left: 12px;
+}
+.serp{
+  margin-top: 5px;
+  margin-left: 12px;
+  font-size: 25px;
+  font-weight: 800;
+}
+.menu_btn{
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  color: white;
+  font-size: 22px;
+}
+.image_part img{
+  width: 168px;
+  object-fit: cover;
+}
+.jeep_section{
+width: 30%;
+margin-top: -10%;
+}
+.jeep_section img{
+  text-align: center;
+  max-width: 500px;
+}
+.janina{
+  font-size: 17px;
+}
+.lastlist{
+  text-align: center;
+  font-size: 22px;
+}
+
+.foote_links li{
+  text-align: center;
+  font-size: 20px;
+  color: rgba(41, 16, 16, 0.041);
+}
+.foote_links li a{
+  color: rgb(41, 16, 16);
+}
+.foote_links li a:hover{
+  color: red;
+}
+.rentalX{
+  text-align: center;
+}
+.copy{
+  text-align: center;
+}
+
+#follow{
+  height: 50px;
+  width: 100px;
+  display: block;
+  margin: 10px  auto;
+  background: transparent;
+  border-radius: 10px;
+  font-size: 20px;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+color: black;
+border: 1px solid black;
+}
+#follow::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: red;
+  border: 1px solid red;
+  z-index: -1;
+  transition: 0.4s;
+}
+#follow:hover::before{
+  width: 100%;
+}
+.container{
+  margin-top: 5px;
+  width: 100px;
+  height: 148px;
+border: none;
+  background-color: red;
+  border-radius: 7px;
+  opacity: 1;
+  transition: opacity .5s;
+display: block;
+margin: 10px auto;
+}
+.facebook{
+  border: 1px solid rgb(241, 78, 78);
+  font-size: 40px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  transition: .5s;
+  text-align: center;
+}
+.facebook:hover{
+transform: translateX(-10px);
+}
+.instragram:hover{
+  transform: translateX(10px);
+}
+.twitter:hover{
+  transform: translateY(7px);
+}
+.instragram{
+  border: 1px solid rgb(235, 9, 9);
+  font-size: 40px;
+  border-radius: 5px;
+  background-color: #FF5733;
+  color: #FFFFFF;
+  text-align: center;
+  transition: .5s;
+}
+.twitter{
+  border: 1px solid rgb(240, 83, 11);
+  font-size: 40px;
+  border-radius: 5px;
+    background-color: #1DA1F2;
+  color: #FFFFFF;  
+  transition: .5s;
+  text-align: center;
+}
+.active.container{
+  opacity: 0;
+} 
+.rent_p{
+  text-align: center;
+}
+.rent_h2{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
